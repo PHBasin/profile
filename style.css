@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+
+header {
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 41, 46);
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  background-color: rgb(246, 248, 250);
+  font-family: 'Roboto', sans-serif;
+  color: rgb(36, 41, 46);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  margin: 0px;
+}
+
+p {
+  text-align: justify; 
+}
+
+li a {
+  color: rgb(36, 41, 46);
+  text-decoration: none;
+}
+
+li a:hover {
+  opacity: 50%;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 40px;
+  margin: 16px 0px 0px 0px;
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+img {
+  text-align: center;
+  border-radius: 50%;
+  width: 150px;
+  margin: 16px 0px;
+}
+
+.container {
+  width: 70%;
+  margin: 40px auto;
+}
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 32px;
+  margin: 40px 0px;
+  border-radius: 3px;
+  border: 1px solid rgb(209, 213, 218);
+  box-shadow: 5px 5px 20px lightgrey;
+}
+
+.button {
+  display: block;
+  width: 70px;
+  padding: 10px;
+  margin: 16px auto 0px;
+  color: rgb(36, 41, 46);
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid rgba(27,31,35,.2);
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: white;
+  background-color: rgb(36, 41, 46);
+}
