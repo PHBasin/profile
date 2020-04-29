@@ -18,39 +18,30 @@ body {
 }
 
 h1, h2 {
-  margin: 0px;
+  margin: 16px 0px;
 }
 
 p {
   text-align: justify; 
 }
 
-li a {
-  color: rgb(36, 41, 46);
-  text-decoration: none;
-}
-
-li a:hover {
-  opacity: 50%;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0px;
-  font-size: 40px;
-  margin: 16px 0px 0px 0px;
-}
-
-li {
-  display: inline;
-  padding: 0px 20px;
-}
-
 img {
   text-align: center;
   border-radius: 50%;
   width: 150px;
-  margin: 16px 0px;
+}
+
+article {
+  overflow: auto;
+}
+
+ul {
+  position: relative;
+  padding: 0px 0px 0px 20px;
+}
+
+li {
+  list-style-type: circle;
 }
 
 .container {
@@ -59,13 +50,41 @@ img {
 }
 
 .card {
-  text-align: center;
   background: white;
   padding: 32px;
   margin: 40px 0px;
   border-radius: 3px;
   border: 1px solid rgb(209, 213, 218);
   box-shadow: 5px 5px 20px lightgrey;
+}
+
+.follow {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 40px;
+  margin: 16px 0px 0px 0px;
+}
+
+.follow li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.follow li a {
+  color: rgb(36, 41, 46);
+  text-decoration: none;
+}
+
+.follow li a:hover {
+  opacity: 50%;
+}
+
+.subjects {
+  display: inline-block;
+  vertical-align: text-top;
+  width: 30%;
+  max-width: 350px;
+  margin: 0px 20px 0px 0px;
 }
 
 .button {
