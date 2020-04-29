@@ -15,9 +15,10 @@ body {
   color: rgb(36, 41, 46);
   font-size: 14px;
   line-height: 1.5;
+  text-align: center; /*temporary*/
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
   margin: 16px 0px;
 }
 
@@ -37,7 +38,7 @@ article {
 
 ul {
   position: relative;
-  padding: 0px 0px 0px 20px;
+  padding: 0px 20px;
 }
 
 li {
@@ -58,11 +59,19 @@ li {
   box-shadow: 5px 5px 20px lightgrey;
 }
 
+.follow h2 {
+  margin: 0px 0px 16px 0px;
+}
+
 .follow {
   list-style: none;
   padding-left: 0px;
-  font-size: 40px;
   margin: 16px 0px 0px 0px;
+  text-align: center;
+}
+
+.follow i {
+  font-size: 40px;
 }
 
 .follow li {
