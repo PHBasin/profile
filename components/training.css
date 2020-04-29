@@ -1,0 +1,17 @@
+.subjects {
+  display: inline-block;
+  vertical-align: text-top;
+  width: 30%;
+  min-width: 210px;
+  max-width: 350px;
+  margin: 0px 10px;
+}
+
+.subjects ul {
+  position: relative;
+  padding: 0px 20px
+}
+
+.subjects li {
+  list-style-type: circle;
+}
