@@ -1,0 +1,43 @@
+.container {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.card {
+  background: white;
+  padding: 32px;
+  margin: 40px 0px;
+  border-radius: 3px;
+  border: 1px solid rgb(209, 213, 218);
+  box-shadow: 5px 5px 20px lightgrey;
+}
+
+.title {
+  display: flex;
+  margin: 30px 0px 0px 0px;
+  align-items: center;
+}
+
+.title img {
+  width: 70px;
+  margin: 0px 20px 0px 0px;
+}
+
+.content {
+  overflow: auto;
+  margin: 16px 0px;
+}
+
+.avatar {
+  text-align: center;
+  border-radius: 50%;
+  width: 150px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}

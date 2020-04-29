@@ -1,0 +1,16 @@
+.employment {
+  display: block;
+  float: right;
+  width: 70%;
+  margin: 0px 0px 0px 30px;
+}
+
+.skill {
+  display: block;
+  float: left;
+  width: 20%
+}
+
+progress {
+  width: 170px;
+}
